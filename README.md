@@ -4,7 +4,7 @@ This pipeline generates a phylogenetic taxonomy from NCBI database through BLAST
 To execute this pipeline:
   1. install Python, R, and BLAST+ plugin
   2. Add your FASTA file to the same folder with these scripts. Rename the file as "input.fasta".
-  3. Open your terminal. Change directory to the folder. Enter `bash blast.bash`.
+  3. Open your terminal. `cd` to the folder. Enter `bash blast.bash`.
 
 Mechanism:
   1. Upload 10 sequences per time to NCBI serve and receive BLASTN return values (which is taxonomic ID) by BLAST+.
